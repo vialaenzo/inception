@@ -111,4 +111,4 @@ Tu dois voir tous les services listés et en statut **Up**.
   docker compose up -d --build
   ```
 
-Par la suite, vous pouvew tester le projet.
+Par la suite, vous pouvez tester le projet.
