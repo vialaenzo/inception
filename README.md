@@ -2,17 +2,17 @@
 
 ## Description
 
-Inception est un projet qui permet de déployer une stack web complète en local à l’aide de Docker Compose.  
-Il intègre plusieurs services essentiels comme Nginx, WordPress, MariaDB, et phpMyAdmin, facilitant ainsi l’apprentissage de la gestion de conteneurs, la configuration serveur, et l’orchestration d’applications.
+Inception est un projet visant à déployer une stack web complète en local à l’aide de Docker Compose. Il intègre plusieurs services essentiels tels que Nginx, WordPress, MariaDB et phpMyAdmin, facilitant ainsi l’apprentissage de la gestion de conteneurs, la configuration serveur et l’orchestration d’applications.
 
 ---
 
 ## Technologies utilisées
 
-- Docker & Docker Compose  
-- Nginx  
-- WordPress  
-- MariaDB  
+- **Docker & Docker Compose** : pour la gestion des conteneurs et l'orchestration des services.
+- **Nginx** : serveur web performant servant de reverse proxy pour WordPress.
+- **WordPress** : système de gestion de contenu (CMS) pour la création de sites web.
+- **MariaDB** : système de gestion de base de données relationnelle compatible avec MySQL.
+- **phpMyAdmin** : interface web pour la gestion de bases de données MySQL/MariaDB.
 
 ---
 
@@ -20,11 +20,13 @@ Il intègre plusieurs services essentiels comme Nginx, WordPress, MariaDB, et ph
 
 ### Prérequis
 
-- Linux (Debian / Ubuntu recommandé)
+- **Système d'exploitation** : Linux (Debian/Ubuntu recommandé)
+- **Docker** : version 20.10 ou supérieure
+- **Docker Compose** : version 1.29 ou supérieure
 
 ### Installer Docker et Docker Compose sur Linux
 
-Ouvre un terminal et lance ces commandes :
+Ouvre un terminal et exécute les commandes suivantes :
 
 ```bash
 # Mettre à jour la liste des paquets
