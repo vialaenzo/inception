@@ -79,18 +79,23 @@ Vous devez creer un fichier .env dans le dossier du projet
 ```bash
 # Configuration de la base de données
 MYSQL_ROOT_PASSWORD=rootpassword
-MYSQL_DATABASE=wordpress
+MYSQL_DB=wordpress
 MYSQL_USER=wp_user
 MYSQL_PASSWORD=wppassword
+DOMAIN_NAME="votrenom"
 
 # Configuration de WordPress
-WORDPRESS_DB_HOST=mariadb:3306
-WORDPRESS_DB_NAME=wordpress
-WORDPRESS_DB_USER=wp_user
-WORDPRESS_DB_PASSWORD=wppassword
-WORDPRESS_ADMIN_USER=admin
-WORDPRESS_ADMIN_PASSWORD=adminpassword
-WORDPRESS_ADMIN_EMAIL=admin@example.com
+WP_TITLE="Inception"
+WP_ADMIN_N="admin"
+WP_ADMIN_P="adminpassword"
+WP_ADMIN_E="admin@example.com"
+
+# Configuration de l'utilisateur supplémentaire
+WP_U_NAME="utilisateur"
+WP_U_EMAIL="utilisateur@example.com"
+WP_U_PASS="utilisateurpassword"
+WP_U_ROLE="subscriber"
+
 ```
 voici un exemple.
 
