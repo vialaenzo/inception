@@ -64,3 +64,13 @@ docker --version
 
 # Vérifier la version de Docker Compose
 docker compose version
+```
+
+## Lancement du projet
+
+```bash 
+
+git clone https://github.com/vialaenzo/inception.git
+cd inception
+
+```
