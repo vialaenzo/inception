@@ -12,7 +12,6 @@ Inception est un projet visant à déployer une stack web complète en local à 
 - **Nginx** : serveur web performant servant de reverse proxy pour WordPress.
 - **WordPress** : système de gestion de contenu (CMS) pour la création de sites web.
 - **MariaDB** : système de gestion de base de données relationnelle compatible avec MySQL.
-- **phpMyAdmin** : interface web pour la gestion de bases de données MySQL/MariaDB.
 
 ---
 
