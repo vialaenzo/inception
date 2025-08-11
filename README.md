@@ -91,8 +91,8 @@ docker compose ps
 
 Tu dois voir tous les services listés et en statut **Up**.
 
-### Utilisation du projet
-#### Accéder aux services
+## Utilisation du projet
+### Accéder aux services
 - **WordPress :** 
   Ouvre un navigateur et va sur http://localhost:5050.
   Tu y trouveras l’interface WordPress pour créer et gérer un site web.
