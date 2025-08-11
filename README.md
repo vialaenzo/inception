@@ -13,7 +13,6 @@ Il intègre plusieurs services essentiels comme Nginx, WordPress, MariaDB, et ph
 - Nginx  
 - WordPress  
 - MariaDB  
-- phpMyAdmin  
 
 ---
 
