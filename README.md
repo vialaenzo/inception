@@ -68,9 +68,49 @@ docker compose version
 
 ## Lancement du projet
 
+### Cloner le dépôt
+Clone le projet depuis GitHub et accède au dossier :
 ```bash 
 
 git clone https://github.com/vialaenzo/inception.git
 cd inception
 
+```
+
+### Démarrer la stack
+Lance la stack complète en arrière-plan avec Docker Compose :
+```bash 
+
+docker compose up -d
+
+```
+
+Cette commande va télécharger les images Docker nécessaires, construire les images personnalisées, et lancer les conteneurs pour chaque service (Nginx, WordPress, MariaDB).
+
+### Vérifier que tout fonctionne
+Vérifie que les conteneurs sont bien lancés :
+
+```bash 
+
+docker compose ps
+
+
+```
+
+Tu dois voir tous les services listés et en statut **Up**.
+
+### Utilisation du projet
+#### Accéder aux services
+- **WordPress :** 
+Ouvre un navigateur et va sur http://localhost:5050.
+Tu y trouveras l’interface WordPress pour créer et gérer un site web.
+
+### Gestion de la stack
+- Pour suivre les logs en temps réel :
+  ```bash
+  docker compose logs -f
+  ```
+- Pour arrêter la stack et les conteneurs :
+  ```bash
+  docker compose down
 ```
